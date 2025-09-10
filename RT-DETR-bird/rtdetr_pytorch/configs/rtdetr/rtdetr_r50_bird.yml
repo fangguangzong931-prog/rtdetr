@@ -1,0 +1,9 @@
+__include__: [
+  '/mnt/d/RT-DETR/RT-DETR-main/rtdetr_pytorch/configs/dataset/bird.yml',
+  '../runtime.yml',
+  './include/dataloader.yml',
+  './include/optimizer.yml',
+  './include/rtdetr_r50vd.yml',
+]
+
+output_dir: ./output/0909
